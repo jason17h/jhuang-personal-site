@@ -1,0 +1,35 @@
+.intro  h1{
+    text-align: center;
+    // background-color: $resume-grey;
+    color: white;
+    padding: 1.6rem;
+    // border-bottom: $wwm-gold 5px solid;
+    margin-bottom: 1.6rem;
+    // font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    font-weight: 700;
+    font-size: 4.2rem;
+    font-family: Montserrat, "Open Sans", sans-serif !important;
+}
+
+.intro #profile-pic {
+    height: auto;
+    width: 70%;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+.intro .introduction {
+    font-size: 1.2rem;
+}
+
+#first-name {
+    color: $dark-green;
+}
+
+#last-name {
+    color: $resume-grey;
+}
+
+.intro .text {
+   margin: auto;
+}
