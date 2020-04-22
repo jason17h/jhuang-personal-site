@@ -21,6 +21,8 @@ p {
 .section {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    // border-top: $dark-green 1.2rem solid;
+    // padding-top: 1rem;
 }
 
 .card {
@@ -32,7 +34,8 @@ p {
 }
 
 .card-title {
-    font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    // font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    font-family: "Montserrat", Arial, "sans serif";
     font-weight: bold!important;
 }
 
@@ -40,3 +43,21 @@ p {
     margin-bottom: 2rem;
     // color: $wwm-navy;
 }
+
+// .employment-timeline {
+//     border: 3px solid red;
+// }
+
+// .timeline-item {
+//     border: 1px solid blue;
+// }
+
+// .internship-company {
+//     font-family: 'Montserrat';
+//     font-weight: 600;
+// }
+
+// .internship-title {
+//     font-family: 'Montserrat';
+//     font-weight: 500;
+// }

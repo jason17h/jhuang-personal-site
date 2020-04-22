@@ -54,6 +54,9 @@ module.exports = (env) => {
                   header: true,
                   skipEmptyLines: true
                 }
+            }, {
+                test: /\.yml|yaml$/,
+                loader: 'yaml-loader',
             }]
         },
         plugins: [

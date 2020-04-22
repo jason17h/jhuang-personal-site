@@ -6,6 +6,10 @@ import Contact from './Contact'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
+// Icons
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 const Intro = () => (
     <div className="intro">
@@ -25,7 +29,7 @@ const Intro = () => (
                             at the University of Waterloo.
                         </p>
                         <p>
-                            Between classes to hackathons to internships, I've grown a love for software
+                            Between classes, hackathons and internships, I've grown a love for software
                             development; from working with close friends to build a web app to enhance hackathons
                             to building essential internal tools at major financial companies, I'm
                             looking to apply the skills I've learned to help others, and of course,
@@ -35,8 +39,27 @@ const Intro = () => (
                             Keep scrolling to learn more about me and my journey thus far.
                         </p>
                     </div>
-                    <div>
-                        <Contact />
+                    <div className="sm-icons">
+                        <a 
+                            className="sm-link" 
+                            href="https://github.com/jason17h" 
+                            target="_blank"
+                        >
+                            <FaGithub className="sm-icon"/>
+                        </a>
+                        <a 
+                            className="sm-link" 
+                            href="https://www.linkedin.com/in/jason17huang/" 
+                            target="_blank"
+                        >
+                            <FaLinkedin className="sm-icon"/>
+                        </a>
+                        <a 
+                            className="sm-link" 
+                            href="mailto:jason17huang@gmail.com" 
+                        >
+                            <FaEnvelope className="sm-icon"/>
+                        </a>
                     </div>
                 </Col>
             </Row>

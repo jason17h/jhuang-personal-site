@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 // Components
 import Intro from './Intro';
 import Contact from './Contact';
+import Employment from './Employment';
 // Bootstrap Components
 import Container from 'react-bootstrap/Container'
 import Collapse from 'react-bootstrap/Collapse'
@@ -25,15 +26,21 @@ export class Main extends React.Component {
     render() {
         return (
             <div>
+            
                 <Container>
-                    <Row className="section">
+                    <Row>
                         <Intro />
                     </Row>
                     <br />
+                {/*
                     <div className="section">
                         <Contact />
                     </div>
+                */}
                 </Container>
+                
+                <Employment />
+                
             </div>
         )
     }

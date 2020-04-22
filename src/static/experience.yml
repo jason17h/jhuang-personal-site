@@ -1,0 +1,30 @@
+- term: 1
+  date: May 2019 - August 2019
+  company: Worldsource Wealth Management
+  location: Markham, ON
+  title: Full Stack Developer, Junior Business Analyst
+  description:
+    - Developed a web application using Django, Python and SQL Server to facilitate succession planning 
+      between financial advisors.
+    - Designed an algorithm using Python to match advisors based on profile, book of business, and clientele 
+      compatibility.
+    - Created two calculators with React and Redux to measure the cost and suitability of an investor's 
+      portfolio.
+    - Researched, documented, and successfully pitched three investment tools to industry leaders and 
+      potential clients to help WWM grow and retain its assets by collaborating with a team of senior 
+      executives.
+  logo: ../../images/cpp_logo.png
+- term: 2
+  date: January 2020 - April 2020
+  company: Canada Pension Plan Investment Board
+  location: Toronto, ON
+  title: 
+    Python Engineer Intern, Quantitative Strategies & Risk Premia
+  description:
+    - Analyzed remarkable daily trends and anomalies across millions of data by developing data validation 
+      tools using pandas, NumPy and SQL.
+    - Drastically improved scalability of data-driven tools using metadata classes to manipulate and normalize 
+      department-wide datasets.
+    - Redesigned data analysis projects to increase efficiency and broaden applicability of the tools by 
+      automating functionalities and updating compatibility across data sources.
+  logo: ../../images/cpp_logo.png

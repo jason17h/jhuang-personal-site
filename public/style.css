@@ -1,27 +1,14 @@
-@media print {
-  @page {
-    size: landscape !important; }
-  html {
-    font-size: 62.5%; }
-  #fee-base {
-    max-width: 4rem; }
-  #market-value {
-    max-width: 5rem; }
-  .container {
-    width: 100%; }
-  .hide-print {
-    display: none; }
-  .funds {
-    min-height: 100%; } }
-
-body {
-  font-family: "News Gothic", Arial, "sans serif"; }
+@import url(https://fonts.googleapis.com/css?family=Oxygen&display=swap);@import url(https://fonts.googleapis.com/css?family=Oxygen|Lato|Montserrat:400,700,900&display=swap);body {
+  font-family: "Montserrat", Arial, "sans serif"; }
 
 input {
   background-color: rgba(0, 0, 0, 0); }
 
 img {
   max-width: 100%; }
+
+p {
+  font-family: "Lato", Arial, "sans serif"; }
 
 .collapse-div {
   height: 100%; }
@@ -37,31 +24,11 @@ img {
   border-color: #bb9d13; }
 
 .card-title {
-  font-family: "ITC Giovanni", "Times New Roman", Times, serif !important;
+  font-family: "Montserrat", Arial, "sans serif";
   font-weight: bold !important; }
 
 #main-section {
   margin-bottom: 2rem; }
-
-#comparison-button-section, #print-and-clear-button-section {
-  text-align: right; }
-
-#comparison-button {
-  background-color: #7d6478;
-  border-color: #7d6478; }
-
-#comparison-button:focus, #comparison-button:hover, #comparison-button:active {
-  background-color: #7d6478; }
-
-#print-button, #clear-all-button {
-  margin-left: 1rem; }
-
-#print-button {
-  background-color: #a0ad8a;
-  border-color: #a0ad8a; }
-
-#comparison-button:focus {
-  box-shadow: none; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -7085,161 +7052,51 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.blurb {
-  width: 100% !important; }
+.intro h1 {
+  text-align: center;
+  color: white;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
+  font-weight: 700;
+  font-size: 4.2rem;
+  font-family: Montserrat, "Open Sans", sans-serif !important; }
 
-.blurb-content {
-  border: 3px solid #bb9d13;
-  background-color: rgba(187, 157, 19, 0.4);
-  padding: 10px;
-  width: 100%; }
-
-.blurb-detail {
-  max-width: 50%; }
-
-.blurb th, .blurb td {
-  padding: 0.5rem; }
-
-.blurb th {
-  background-color: #bb9d13;
-  font-family: "ITC Giovanni", "Times New Roman", Times, serif !important;
-  font-size: 1.1rem; }
-
-.blurb-content tbody tr:hover {
-  background-color: rgba(187, 157, 19, 0.4); }
-
-.blurb-content td {
-  padding: 0.5rem; }
-
-.blurb-input .input {
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
-  display: inline-block;
-  border: none; }
-
-.blurb-input .input:active, .blurb-input .input:focus {
-  border: none;
-  box-shadow: none; }
-
-.blurb-input {
-  background-color: rgba(187, 157, 19, 0.4); }
-
-.blurb-input:hover {
-  background-color: rgba(187, 157, 19, 0.4); }
-
-#blurb-hst-gst {
-  width: 4rem; }
-
-.total {
-  background-color: rgba(187, 157, 19, 0.4);
-  border-top: #bb9d13 solid 3px;
-  vertical-align: middle; }
-
-.total td {
-  vertical-align: middle; }
-
-.total input {
-  width: 75%;
-  border: none;
-  border-radius: 1px;
-  text-align: right;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 0.5rem 0.2rem 0.5rem 0.2rem; }
-
-#clear-funds-button {
-  width: 100%; }
-
-.difference {
-  border: 3px solid #bb9d13;
-  background-color: rgba(187, 157, 19, 0.4);
-  padding: 10px;
-  width: 100%;
-  height: 100% !important; }
-
-.difference th, .difference td {
-  padding: 0.5rem; }
-
-.difference .data {
-  background-color: rgba(187, 157, 19, 0.4); }
-
-.difference th {
-  background-color: #bb9d13;
-  font-family: "ITC Giovanni", "Times New Roman", Times, serif !important;
-  font-size: 1.1rem; }
-
-.fund input {
-  width: 75%;
-  border: none;
-  border-radius: 1px;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 0.5rem 0.2rem 0.5rem 0.2rem; }
-
-.fund #market-value {
-  margin-left: 0.2rem; }
-
-.fund #fee-base {
-  margin-right: 0.2rem; }
-
-.fund td {
-  vertical-align: middle; }
-
-.fee-badge {
-  background-color: #bb9d13;
-  color: white; }
-
-.fund .editable {
-  background-color: rgba(187, 157, 19, 0.4); }
-
-.fund .editable:hover {
-  background-color: rgba(187, 157, 19, 0.8); }
-
-#market-value, #fee-base {
-  min-width: 75%;
+.intro .sm-icons {
   text-align: right; }
 
-.funds {
-  width: 100%; }
+.intro .sm-icon {
+  margin-right: 0;
+  margin-left: 1.6rem; }
 
-.funds thead {
-  border-top: #bb9d13 solid 3px;
-  border-bottom: #bb9d13 solid 3px;
-  font-family: "ITC Giovanni", "Times New Roman", Times, serif !important; }
+.intro #profile-pic {
+  height: auto;
+  width: 70%;
+  border-radius: 10px;
+  margin-right: 0px; }
 
-.funds:hover {
-  border-color: #bb9d13; }
+.intro .introduction {
+  font-size: 1.2rem; }
 
-#funds-title {
-  background-color: #012639;
-  padding: 1.5rem;
-  border-bottom: #bb9d13 5px solid;
-  font-family: "ITC Giovanni", "Times New Roman", Times, serif !important;
-  color: white; }
+#first-name {
+  color: #014421; }
 
-.fundform {
-  vertical-align: middle; }
+#last-name {
+  color: #b2b7ba; }
 
-.fundform .error {
-  color: red; }
+.intro .text {
+  margin: auto; }
 
-.fundform .col {
-  vertical-align: middle; }
+.sm-icon {
+  margin-right: 1rem; }
 
-.fundform-button {
-  background-color: #6b88b2;
-  border-color: #6b88b2; }
+.sm-link {
+  color: black; }
 
-.fundform-button:focus, .fundform-button:hover, .fundform-button:active {
-  background-color: #012639; }
+.sm-link:hover {
+  text-decoration: none;
+  color: #51bb59; }
 
-.fundform-button:focus {
-  box-shadow: rgba(1, 38, 57, 0.4); }
-
-.header {
-  text-align: center;
-  background-color: #012639;
-  color: white;
-  padding: 1rem;
-  border-bottom: #bb9d13 5px solid;
-  margin-bottom: 0.5rem;
-  font-family: "ITC Giovanni", "Times New Roman", Times, serif !important;
-  font-weight: bolder !important; }
+.contact .col {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center; }
