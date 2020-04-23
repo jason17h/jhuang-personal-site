@@ -15,18 +15,15 @@ const Internship = (props) => {
             dateInnerStyle={{color: '#014421', fontFamily: 'Montserrat', backgroundColor: "white"}}
             className="timeline-item"
         >
-            <h5 className="internship-company">{props.company}</h5>
-            <h6><span className="internship-title">{props.title}</span> • {props.location}</h6>
-            <br />
-            {props.description.map((point) => (<p>{point}</p>))}
-            {/* 
-                <ListGroup variant="flush">
-                    {props.description.map((point) => (
-                        <ListGroupItem>{point}</ListGroupItem>
-                    ))}
-                </ListGroup>
-            */}
-                    </TimelineItem>
+            <div className="internship-div">
+                <h5>
+                    <span className="internship-company">{props.company}</span> • <span className="internship-location">{props.location}</span>
+                </h5>
+                <h6><span className="internship-title">{props.title}</span></h6>
+                <br />
+                {props.description.map((point) => (<p>{point}</p>))}
+            </div>
+        </TimelineItem>
     )
 }
 

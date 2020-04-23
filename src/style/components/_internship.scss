@@ -1,3 +1,22 @@
+.internship-div {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: border 0.15s ease-in-out;
+    // box-shadow: 10px grey;
+}
+
+// .internship-div:hover {
+//     border: 1px solid $dark-green;
+//     // .internship-company .internship-location .internship-title {
+//     //     color: $dark-green;
+//     // }
+// }
+
+.internship-location {
+    font-family: Montserrat;
+}
+
 .internship-company {
     font-family: "Montserrat";
     font-weight: 600;

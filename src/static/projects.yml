@@ -1,0 +1,9 @@
+- name: STEMSearch
+  description:
+    - Used Dash to create an intelligent academic paper recommender based on titles and abstracts with an 
+      interactive COVID-19 dashboard
+    - Refined NLP machine learning model parameters by analyzing millions of text data from arXiv and CORD-19 
+      using pandas and NumPy
+    - Implemented k-means clustering, TF–IDF and cosine similarity with scikit-learn to recommend similar 
+      articles and extract key terms 
+  github: 

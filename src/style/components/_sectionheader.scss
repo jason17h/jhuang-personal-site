@@ -1,0 +1,13 @@
+.section-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: $dark-green;
+    text-align: center;
+    // border-bottom: 5px $dark-green solid;
+}
+
+.section-header-text {
+    font-family: Montserrat;
+    font-weight: 700;
+    border-bottom: 5px $dark-green solid;
+}

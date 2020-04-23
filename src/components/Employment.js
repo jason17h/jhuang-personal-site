@@ -9,7 +9,7 @@ import Internship from './Internship';
 const Employment = (props) => {
     const employmentConfig = require("json-loader!yaml-loader!../static/experience.yml");
     return (
-        <div id='employment-div'>
+        <Container>
             <Timeline lineColor={"#b2b7ba"} className="employment-timeline">
                 {
                     employmentConfig.reverse().map((internship) => (
@@ -17,7 +17,7 @@ const Employment = (props) => {
                     ))
                 }
             </Timeline>
-        </div>
+        </Container>
     )
 }
 
