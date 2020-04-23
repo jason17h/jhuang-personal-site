@@ -1,0 +1,16 @@
+a {
+    color: $dark-green;
+}
+
+a:hover {
+    color: $resume-green;
+    border-color: $resume-green;
+}
+
+.project-card {
+    height: 100%;
+}
+
+.project-col {
+    margin-bottom: 30px;
+}

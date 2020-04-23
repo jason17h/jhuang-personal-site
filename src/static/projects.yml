@@ -1,4 +1,7 @@
 - name: STEMSearch
+  subtitle: 
+    Research made easy! Find journal articles from a variety of credible sources to further your 
+    research projects using this intelligent academic paper recommender.
   description:
     - Used Dash to create an intelligent academic paper recommender based on titles and abstracts with an 
       interactive COVID-19 dashboard
@@ -6,4 +9,43 @@
       using pandas and NumPy
     - Implemented k-means clustering, TF–IDF and cosine similarity with scikit-learn to recommend similar 
       articles and extract key terms 
-  github: 
+  stack: [Python, pandas, NumPy, scikit-learn, Dash]
+  github: https://github.com/jason17h/stem-search
+
+- name: 'FYOUZE: Social Media Consolidator'
+  hackathon: Hack The North 2019
+  subtitle:
+    A social media consolidator application which combines your social media challenges into one and allows 
+    you to add others on various platforms right from FYOUZE!
+  description:
+    - Developed a web application using Python with Selenium, Flask and various social media APIs which 
+      automatically connects users on numerous social media channels
+    - Enhanced UI/UX using HTML, CSS, Bootstrap, and JavaScript
+  stack: [Python, Selenium, Flask, JavaScript]
+  github: https://github.com/jason17h/FYOUZE
+  devpost: https://devpost.com/software/fyouze
+
+- name: 'Investment Portfolio Manager'
+  subtitle: 
+    An application which allows users to calculate the suitability and costs of their mutual fund portfolios.
+  description:
+    - Created a web application using React, Redux and Firebase Realtime Database to compute and compare the 
+      costs of a mutual fund portfolio
+    - Designed an algorithm using JavaScript to determine the suitability of a portfolio based on an 
+      investor's objectives and risk tolerance
+  stack: [React, Redux, JavaScript, Firebase]
+
+- name: 'WeHack: Hackathon Networking Platform'
+  hackathon: EngHack 2019
+  subtitle: 
+    An application designed to make hackathons more accessible and welcoming to all – from pro programmers 
+    to new coders to keen designers!
+  description:
+    - Conceptualized and built a web-based hackathon portal application using a design thinking approach
+    - Used Django to develop the application with authentication, SMS notification, and search functionalities
+  stack: [Python, Django]
+  github: https://github.com/jason17h/hackerhub
+  devpost: https://devpost.com/software/hacker-hub-kh29ew
+
+
+

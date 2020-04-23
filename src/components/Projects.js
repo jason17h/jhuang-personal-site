@@ -4,13 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 const Projects = (props) => {
+    const projectConfig = require("json-loader!yaml-loader!../static/projects.yml");
     return (
         <Container>
             <Row>
-                <Project />
-                <Project />
-                <Project />
-                <Project />
+                {projectConfig.map((project) => <Project {...project} />)}
             </Row>
         </Container>
     )
