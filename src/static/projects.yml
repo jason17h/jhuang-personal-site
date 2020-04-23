@@ -34,6 +34,7 @@
     - Designed an algorithm using JavaScript to determine the suitability of a portfolio based on an 
       investor's objectives and risk tolerance
   stack: [React, Redux, JavaScript, Firebase]
+  github: https://github.com/jason17h/investment-portfolio-manager
 
 - name: 'WeHack: Hackathon Networking Platform'
   hackathon: EngHack 2019

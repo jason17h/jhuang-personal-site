@@ -15,6 +15,7 @@ const Project = (props) => {
                             }
                     </Card.Title>
                     <p class="small"><em>{props.subtitle}</em></p>
+                    <p class="small"><em>Stack: {props.stack.join(', ')}</em></p>
                     <Card.Text>
                         {props.description.map((point) => <p>{point}</p>)}
                     </Card.Text>

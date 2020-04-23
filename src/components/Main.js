@@ -36,9 +36,11 @@ export class Main extends React.Component {
                 </Container>
                 <SectionHeader text="Experience" />
                 <Skills />
-                <Employment />
+                <Employment file="experience.yml" />
                 <SectionHeader text="Projects" />
                 <Projects />
+                <SectionHeader text="Education" />
+                <Employment file="education.yml" />
             </div>
         )
     }

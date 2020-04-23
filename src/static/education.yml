@@ -1,0 +1,26 @@
+- company: White Oaks Secondary School
+  title: IB Diploma
+  location: Oakville, ON
+  date: September 2014 - June 2018
+  description:
+    - "Final IB score: 42/45 (including Higher Level French)"
+    - "Involvement: White Oaks Debate President, Student Council Senior Fundraising Representative"
+    - "Awards and distinctions: 
+      White Oaks Student of Excellence (2018),
+      White Oaks Staff Oak Leaf Award (2018),
+      Hamish Guthrie Scholarship Award (2018)"
+
+- company: University of Waterloo
+  title: Bachelor of Computer Science
+  location: Waterloo, ON
+  date: September 2018 - present
+  description:
+    - 'Relevant coursework: Object-Oriented Software Development, Elementary Algorithm Design and Data 
+      Abstraction, Designing Functional Programs, Logic and Computation, Linear Algebra 2, Calculus 2'
+    - 'Cumulative average (1A - 2A inclusive): 83.67'
+    - 'Involvement: Waterloo Debate Society Vice President'
+    - "Awards and distinctions: 
+      Dean's Honour List (2019), 
+      University of Waterloo President's Scholarship of Distinction (2019)"
+
+

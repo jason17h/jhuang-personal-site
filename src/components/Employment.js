@@ -7,7 +7,7 @@ import { Timeline }  from 'vertical-timeline-component-for-react';
 import Internship from './Internship';
 
 const Employment = (props) => {
-    const employmentConfig = require("json-loader!yaml-loader!../static/experience.yml");
+    const employmentConfig = require("json-loader!yaml-loader!../static/" + props.file);
     return (
         <Container>
             <Timeline lineColor={"#b2b7ba"} className="employment-timeline">
