@@ -11,6 +11,10 @@ a:hover {
     height: 100%;
 }
 
+.project-card:hover {
+    border-color: $resume-green;
+}
+
 .project-col {
     margin-bottom: 30px;
 }

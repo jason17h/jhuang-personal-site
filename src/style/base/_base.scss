@@ -10,7 +10,7 @@ img {
     max-width: 100%;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, Arial;
 }
 
@@ -33,9 +33,9 @@ p {
     transition: border-color 0.15s ease-in-out;
 }
 
-.card:hover {
-    border-color: $resume-green;
-}
+// .card:hover {
+//     border-color: $resume-green;
+// }
 
 .card-title {
     // font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;

@@ -9,7 +9,7 @@ const Project = (props) => {
             <Card className="project-card">
                 <Card.Body>
                     <Card.Title>
-                            <a target="_blank" href={props.github}>{props.name}</a>
+                            <a target="_blank" href={props.github}>{props.name} <FaGithub /></a>
                             {props.hackathon && 
                                 <span> | <br /> <a target="_blank" href={props.devpost}>{props.hackathon}</a></span>
                             }

@@ -1,0 +1,31 @@
+- title: Friends
+  image: friends_logo.png
+  link: https://www.netflix.com/browse?jbv=70153404&jbp=1&jbr=1
+
+- title: Jane The Virgin
+  image: jane_the_virgin_logo.png
+  link: https://www.netflix.com/browse?jbv=80027158&jbp=0&jbr=2
+
+- title: Orange Is The New Black
+  image: oitnb_logo.png
+  link: https://www.netflix.com/search?q=orange&jbv=70242311&jbp=0&jbr=0
+
+- title: Stranger Things
+  image: stranger_things_logo.png
+  link: https://www.netflix.com/search?q=stranger%20th&jbv=80057281&jbp=0&jbr=0
+
+- title: Brooklyn Nine-Nine
+  image: b99_logo.png
+  link: https://www.netflix.com/browse?jbv=70281562&jbp=2&jbr=1
+
+- title: The Crown
+  image: the_crown_logo.png
+  link: https://www.netflix.com/browse?jbv=80025678&jbp=4&jbr=1
+
+- title: Lucifer
+  image: lucifer_logo.png
+  link: https://www.netflix.com/browse?jbv=80057918&jbp=3&jbr=1
+
+- title: You
+  image: you_logo.png
+  link: https://www.netflix.com/search?q=you&jbv=80211991&jbp=0&jbr=0

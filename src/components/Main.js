@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Employment from './Employment';
 import SectionHeader from './SectionHeader';
 import Projects from './Projects';
+import Interests from './Interests';
 // Bootstrap Components
 import Container from 'react-bootstrap/Container'
 import Collapse from 'react-bootstrap/Collapse'
@@ -34,13 +35,19 @@ export class Main extends React.Component {
                     </Row>
                     <br />
                 </Container>
+
                 <SectionHeader text="Experience" />
                 <Skills />
                 <Employment file="experience.yml" />
+
                 <SectionHeader text="Projects" />
                 <Projects />
+
                 <SectionHeader text="Education" />
                 <Employment file="education.yml" />
+
+                <SectionHeader text="About Me" />
+                <Interests />
             </div>
         )
     }

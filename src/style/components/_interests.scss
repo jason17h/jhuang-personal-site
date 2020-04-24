@@ -1,0 +1,65 @@
+h3 {
+    font-weight: 600;
+}
+
+.album-image {
+    height: 400px;
+    width: 400px;
+}
+
+.album-card, .tv-card {
+    display: inline-block;
+    overflow-y: scroll;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+.album-card:hover {
+    border-color: $resume-green;
+}
+
+.entertainment-wrapper-card {
+    border: none;
+}
+
+.entertainment-row {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+.entertainment-row a {
+    transition: $border-hover;
+    color: black;
+}
+
+.entertainment-row a:hover {
+    color: $resume-green;
+}
+
+.tv-card {
+    height: 100%;
+    width: 450px;
+}
+
+.tv-image {
+    width: 450px;
+    object-fit: contain;
+    margin: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    // margin-left: 25px;
+    // margin-right: 25px;
+    padding: 20px;
+    transition: box-shadow 0.20s ease-in-out;
+}
+
+.tv-image:hover {
+    border-color: $resume-green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// .tv-row {
+//     border-top: 1px solid lightgrey;
+//     border-bottom: 1px solid lightgrey;
+// }
