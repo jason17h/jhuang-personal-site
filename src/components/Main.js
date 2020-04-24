@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 // Components
 import Intro from './Intro';
+import Navigation from './Navigation';
 import Skills from './Skills';
 import Employment from './Employment';
 import SectionHeader from './SectionHeader';
@@ -9,6 +10,7 @@ import Projects from './Projects';
 import Interests from './Interests';
 // Bootstrap Components
 import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
 import Collapse from 'react-bootstrap/Collapse'
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
@@ -29,25 +31,37 @@ export class Main extends React.Component {
     render() {
         return (
             <div>
-                <Container>
-                    <Row>
-                        <Intro />
-                    </Row>
-                    <br />
-                </Container>
+                <div id="intro-div">
+                    <Container>
+                        <Row>
+                            <Intro />
+                        </Row>
+                        <br />
+                        <Navigation />
+                    </Container>
+                </div>
+                
+                <div id="about-me" >
+                    <SectionHeader text="About Me" />
+                    <Interests />
+                </div>
 
-                <SectionHeader text="Experience" />
-                <Skills />
-                <Employment file="experience.yml" />
+                <div id="experience">
+                    <SectionHeader text="Experience" />
+                    <Skills />
+                    <Employment file="experience.yml" />
+                </div>
 
-                <SectionHeader text="Projects" />
-                <Projects />
+                <div id="projects">
+                    <SectionHeader text="Projects" />
+                    <Projects />
+                </div>
 
-                <SectionHeader text="Education" />
-                <Employment file="education.yml" />
+                <div id="education">
+                    <SectionHeader text="Education" />
+                    <Employment file="education.yml" />
+                </div>
 
-                <SectionHeader text="About Me" />
-                <Interests />
             </div>
         )
     }

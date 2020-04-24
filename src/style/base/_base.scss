@@ -22,6 +22,12 @@ p {
     height: 100%;
 }
 
+#intro-div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .section {
     margin-top: 1rem;
     margin-bottom: 1rem;

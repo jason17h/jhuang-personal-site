@@ -30,13 +30,15 @@ const Intro = () => (
                         </p>
                         <p>
                             Between classes, hackathons and internships, I've grown a love for software
-                            development; from working with close friends to build a web app to enhance hackathons
-                            to building essential internal tools at major financial companies, I'm
+                            development; from working with close friends to build a web app to enhance 
+                            hackathons to building essential internal tools at major financial companies, I'm
                             looking to apply the skills I've learned to help others, and of course,
                             get more exposure and learn new technologies along the way!
                         </p>
                         <p>
-                            Keep scrolling to learn more about me and my journey thus far.
+                            I created this site to help you get to know a little bit more about me, both  
+                            personally and professionally. Feel free to reach out to me via the contact links 
+                            below!
                         </p>
                     </div>
                     <div className="sm-icons">
