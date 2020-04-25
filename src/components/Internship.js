@@ -16,6 +16,10 @@ const Internship = (props) => {
             className="timeline-item"
         >
             <div className="internship-div">
+                {
+                    props.image && 
+                    <img className="internship-logo" src={require('../../images/work/' + props.image)} />
+                }
                 <h5>
                     <span className="internship-company">{props.company}</span> • <span className="internship-location">{props.location}</span>
                 </h5>

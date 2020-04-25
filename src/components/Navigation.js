@@ -1,8 +1,5 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import Scroll from 'react-scroll';
-
-const ScrollLink = Scroll.ScrollLink;
 
 const Navigation = (props) => {
     return (

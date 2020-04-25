@@ -13,7 +13,8 @@
     - Researched, documented, and successfully pitched three investment tools to industry leaders and 
       potential clients to help WWM grow and retain its assets by collaborating with a team of senior 
       executives.
-  logo: ../../images/cpp_logo.png
+  image: wwm.jpg
+
 - term: 2
   date: January 2020 - April 2020
   company: Canada Pension Plan Investment Board
@@ -27,4 +28,4 @@
       department-wide datasets.
     - Redesigned data analysis projects to increase efficiency and broaden applicability of the tools by 
       automating functionalities and updating compatibility across data sources.
-  logo: ../../images/cpp_logo.png
+  image: cpp.jpg
