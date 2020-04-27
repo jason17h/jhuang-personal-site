@@ -48,5 +48,22 @@
   github: https://github.com/jason17h/hackerhub
   devpost: https://devpost.com/software/hacker-hub-kh29ew
 
+- name: Personal Website
+  subtitle: Get to know me – both personally and professionally!
+  description:
+    - Created an elegant personal website using React
+  stack: [React, JavaScript, JSX, Bootstrap]
+  github: https://github.com/jason17h/jhuang-personal-site
+
+- name: Environmental Education Game
+  subtitle: 
+    Inspired by Disney/Pixar's Finding Dory, join everyone's favourite royal blue tang in learning why e-waste
+    is harmful for our environment!
+  description:
+    - Designed and built an interactive computer game using Python and Pygame to enforce eco-friendly 
+      habits among children
+    - Applied key stages of the software development cycle (designing, building, testing)
+  stack: [Python, Pygame]
+  github: https://github.com/jason17h/Finding-Dory-E-waste-Game
 
 

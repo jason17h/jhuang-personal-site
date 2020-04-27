@@ -9,9 +9,12 @@ h3 {
 
 .album-card, .tv-card {
     display: inline-block;
-    overflow-y: scroll;
     max-width: 400px;
     margin-right: 10px;
+}
+
+.album-card .card-body {
+    overflow-y: scroll;
 }
 
 .album-card:hover {
