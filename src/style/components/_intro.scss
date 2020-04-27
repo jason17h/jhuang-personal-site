@@ -21,14 +21,16 @@
 }
 
 .intro #profile-pic {
-    height: auto;
+    // height: auto;
     width: 70%;
+    // height: 100%;
     border-radius: 10px;
     margin-right: 0px;
 }
 
 .intro .introduction {
     font-size: 1.2rem;
+    // border: 3px red solid;
 }
 
 #first-name {

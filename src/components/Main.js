@@ -33,6 +33,10 @@ export class Main extends React.Component {
             <div>
                 <div id="intro-div">
                     <Container>
+                        {/*<h1 className="sticky-top">
+                            <span id="first-name">Jason </span>
+                            <span id="last-name">Huang</span>
+                        </h1>*/}
                         <Row>
                             <Intro />
                         </Row>
@@ -42,23 +46,23 @@ export class Main extends React.Component {
                 </div>
                 
                 <div id="about-me" >
-                    <SectionHeader text="About Me" />
+                    <SectionHeader text="About Me" href="about-me" />
                     <Interests />
                 </div>
 
                 <div id="experience">
-                    <SectionHeader text="Experience" />
+                    <SectionHeader text="Experience" href="experience" />
                     <Skills />
                     <Employment file="experience.yml" />
                 </div>
 
                 <div id="projects">
-                    <SectionHeader text="Projects" />
+                    <SectionHeader text="Projects" href="projects" />
                     <Projects />
                 </div>
 
                 <div id="education">
-                    <SectionHeader text="Education" />
+                    <SectionHeader text="Education" href="education" />
                     <Employment file="education.yml" />
                 </div>
 

@@ -51,8 +51,9 @@
 - name: Personal Website
   subtitle: Get to know me – both personally and professionally!
   description:
-    - Created an elegant personal website using React
-  stack: [React, JavaScript, JSX, Bootstrap]
+    - Created a personal website using React, Webpack and Babel
+    - Deployed the web application using AWS Amplify
+  stack: [React, JavaScript, JSX, Webpack, Babel, AWS]
   github: https://github.com/jason17h/jhuang-personal-site
 
 - name: Environmental Education Game

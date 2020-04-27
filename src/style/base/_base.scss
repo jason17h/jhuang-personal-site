@@ -28,6 +28,19 @@ p {
     align-items: center;
 }
 
+#intro-div  h1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: white;
+    padding: 1.6rem;
+    // border-bottom: $wwm-gold 5px solid;
+    margin-bottom: 1.6rem;
+    // font-family: "ITC Giovanni", "Times New Roman", Times, serif!important;
+    font-weight: 700;
+    font-size: 4.2rem;
+    font-family: Montserrat, "Open Sans", sans-serif !important;
+}
+
 .section {
     margin-top: 1rem;
     margin-bottom: 1rem;

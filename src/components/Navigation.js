@@ -1,9 +1,12 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Navigation = (props) => {
     return (
-        <Nav fill className="navigation">
+        <Nav fill className="navigation sticky-top">
           <Nav.Item>
             <Nav.Link href="#about-me"><h3>About Me</h3></Nav.Link>
           </Nav.Item>

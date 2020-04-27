@@ -1,9 +1,17 @@
 .section-header {
-    padding-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     color: $dark-green;
     text-align: center;
-    // border-bottom: 5px $dark-green solid;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.section-header a:hover {
+    text-decoration-line: none;
+    .section-header-text {
+        border-bottom-color: $resume-green;
+    }
 }
 
 .section-header-text {
@@ -11,3 +19,5 @@
     font-weight: 700;
     border-bottom: 5px $dark-green solid;
 }
+
+
