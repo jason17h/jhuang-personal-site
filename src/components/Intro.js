@@ -25,20 +25,20 @@ const Intro = () => (
                 <Col className="introduction">
                     <div className="text">
                         <p>
-                            Hey there! I'm Jason, a second year Computer Science student 
+                            Hey there! My name is Jason and I'm a second year Computer Science student 
                             at the University of Waterloo.
                         </p>
                         <p>
-                            Between classes, hackathons and internships, I've grown a love for software
-                            development; from working with close friends to build a web app to enhance 
-                            hackathons to building essential internal tools at major financial companies, I'm
-                            looking to apply the skills I've learned to help others, and of course,
-                            get more exposure and learn new technologies along the way!
+                            Between classes, hackathons and internships, I've built a portfolio of experiences
+                            that I am eager to share with the world. I'm currently seeking Fall 2020
+                            internship positions in software development, so if you have any opportunities
+                            you'd like to discuss, feel free to reach out via email or LinkedIn!
                         </p>
                         <p>
                             I created this site to help you get to know a little bit more about me, both  
-                            personally and professionally. Feel free to reach out to me via the contact links 
-                            below!
+                            personally and professionally. Learn more about what I love about
+                            computer science and software development, my projects, my work experiences,
+                            and my hobbies below!
                         </p>
                     </div>
                     <div className="sm-icons">
@@ -70,3 +70,23 @@ const Intro = () => (
 )
 
 export default Intro;
+
+
+// <p>
+//     Hey there! My name is Jason and I'm a second year Computer Science student 
+//     at the University of Waterloo.
+// </p>
+// <p>
+//     Simply put, software development is an important part of my life because it gives 
+//     me a globally accessible platform to transform innovation into impact. I'm fascinated by the way
+//     I can better people's lives, whether we're five minutes apart or continents away, no matter how
+//     vastly different our day-to-day experiences are. To me, the most fundamental root of software development
+//     is improving people's lives which has inspired me to pursue an option in Human and Computer Interaction 
+//     along with my degree.
+// </p>
+// <p>
+//     Between classes, hackathons and internships, I've built a portfolio of experiences
+//     that I am eager to share with the world. 
+//     I created this site to help you get to know a little bit more about me, both  
+//     personally and professionally. Feel free to visit my GitHub, LinkedIn, or reach out to me via email!
+// </p>
