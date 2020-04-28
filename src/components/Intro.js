@@ -10,6 +10,7 @@ import Container from 'react-bootstrap/Container'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { AiFillProfile } from "react-icons/ai";
 
 const Intro = () => (
     <div className="intro">
@@ -61,6 +62,13 @@ const Intro = () => (
                             href="mailto:jason17huang@gmail.com" 
                         >
                             <FaEnvelope className="sm-icon"/>
+                        </a>
+                        <a 
+                            className="sm-link" 
+                            href={require('../static/Jason_Huang_Resume_2020.pdf')}
+                            download="Jason_Huang_Resume_2020.pdf"
+                        >
+                            <AiFillProfile className="sm-icon" />
                         </a>
                     </div>
                 </Col>

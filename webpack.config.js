@@ -57,6 +57,9 @@ module.exports = (env) => {
             }, {
                 test: /\.yml|yaml$/,
                 loader: 'yaml-loader',
+            }, {
+                test: /\.pdf$/,
+                loader: 'file-loader'
             }]
         },
         plugins: [

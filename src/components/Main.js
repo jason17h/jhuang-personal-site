@@ -15,9 +15,6 @@ import Collapse from 'react-bootstrap/Collapse'
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Popover from 'react-bootstrap/Popover';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Modal from 'react-bootstrap/Modal';
 
 // export const current = 'Current Portfolio';
 // export const proposed = 'Proposed Portfolio';
