@@ -4,4 +4,4 @@ Welcome to my personal website! From hobbies to projects to work experience, lea
 
 Created with React.
 
-View the deployed version at https://www.huangjason.com/!
+View the deployed version here: https://www.huangjason.com/
