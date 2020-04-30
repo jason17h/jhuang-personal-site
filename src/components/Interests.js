@@ -12,6 +12,17 @@ const Interests = (props) => {
     const tvConfig = require("json-loader!yaml-loader!../static/tv.yml");
     return (
         <Container>
+            <h2>Why Software?</h2>
+            <br />
+            <p>
+                Simply put, software development is an important part of my life because it gives 
+                me a globally accessible platform to transform innovation into impact. I'm fascinated by the way
+                I can better people's lives, whether we're five minutes apart or continents away, no matter how
+                vastly different our day-to-day experiences are. To me, the most fundamental root of software development
+                is improving people's lives which has inspired me to pursue an option in Human and Computer Interaction 
+                along with my degree.
+            </p>
+            <br />
             <h2>Hobbies</h2>
             {hobbiesConfig.map((hobby) => (
                 <Row className="hobby-row">
