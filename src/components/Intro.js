@@ -31,7 +31,7 @@ const Intro = () => (
                         </p>
                         <p>
                             Between classes, hackathons and internships, I've built a portfolio of experiences
-                            that I am eager to share with the world. I'm currently seeking Fall 2020
+                            that I am eager to share with the world. I'm currently seeking Summer 2021
                             internship positions in software development, so if you have any opportunities
                             you'd like to discuss, feel free to reach out via email or LinkedIn!
                         </p>
