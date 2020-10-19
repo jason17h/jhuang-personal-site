@@ -10,13 +10,13 @@
   image: modern_family_logo.png
   link: https://www.netflix.com/browse?jbv=70143858&jbp=0&jbr=1
 
+- title: The Good Place
+  image: the_good_place_logo.png
+  link: https://www.netflix.com/search?q=the%20good%20place&jbv=80113701
+
 - title: Orange Is The New Black
   image: oitnb_logo.png
   link: https://www.netflix.com/search?q=orange&jbv=70242311&jbp=0&jbr=0
-
-- title: The Good Place
-  image: the_good_place.png
-  link: https://www.netflix.com/search?q=the%20good%20place&jbv=80113701
 
 - title: How To Get Away With Murder
   image: htgawm.png
