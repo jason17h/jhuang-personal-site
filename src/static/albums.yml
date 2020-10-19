@@ -10,11 +10,11 @@
   image: folklore.jpeg
   link: https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr?si=ONBx_sqyQomTfZ4zAoUQHA
 
-- title: Head Above Water
-  artist: Avril Lavigne
-  track: Tell Me It's Over
-  image: head_above_water.png
-  link: https://open.spotify.com/album/3FrkD0TTaXBuW19vuEhDGz?si=Hz6DZENySX61JWPEUCvQWQ
+# - title: Head Above Water
+#   artist: Avril Lavigne
+#   track: Tell Me It's Over
+#   image: head_above_water.png
+#   link: https://open.spotify.com/album/3FrkD0TTaXBuW19vuEhDGz?si=Hz6DZENySX61JWPEUCvQWQ
 
 - title: Lemonade
   artist: Beyoncé
@@ -22,11 +22,11 @@
   image: lemonade.png
   link: https://open.spotify.com/album/7dK54iZuOxXFarGhXwEXfF?si=1GPc2HKUSWWP_P-W3T-eWg
 
-- title: "The Lion King: The Gift"
-  artist: Beyoncé
-  track: BROWN SKIN GIRL
-  image: lion_king_the_gift.png
-  link: https://open.spotify.com/album/552zi1M53PQAX5OH4FIdTx?si=50Dj6WHTR7aI6WlOUReaRg
+# - title: "The Lion King: The Gift"
+#   artist: Beyoncé
+#   track: BROWN SKIN GIRL
+#   image: lion_king_the_gift.png
+#   link: https://open.spotify.com/album/552zi1M53PQAX5OH4FIdTx?si=50Dj6WHTR7aI6WlOUReaRg
 
 - title: Lover
   artist: Taylor Swift
@@ -69,14 +69,19 @@
   image: thank_u_next.png
   link: https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw?si=dwLSkeToRSCOKvWHWLEZOQ
 
-- title: While We Wait
-  artist: Kehlani
-  track: Love Language
-  image: while_we_wait.png
-  link: https://open.spotify.com/album/73ZvpuYhKDr2FW4vlPsTpW?si=UlnwR5MKSgepAJCo_s2drw
+# - title: While We Wait
+#   artist: Kehlani
+#   track: Love Language
+#   image: while_we_wait.png
+#   link: https://open.spotify.com/album/73ZvpuYhKDr2FW4vlPsTpW?si=UlnwR5MKSgepAJCo_s2drw
 
 - title: 4
   artist: Beyoncé
   track: Countdown
   image: 4.jpg
   link: https://open.spotify.com/album/1gIC63gC3B7o7FfpPACZQJ?si=auP4rjVvT76xEbyOV3C2xA
+
+- title: 21
+  artist: Adele
+  track: One and Only
+  link: https://open.spotify.com/album/7n3QJc7TBOxXtlYh4Ssll8?si=N4FKJG2tRxmz6nlm4xl-1A

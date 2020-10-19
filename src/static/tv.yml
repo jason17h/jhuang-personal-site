@@ -14,6 +14,10 @@
   image: oitnb_logo.png
   link: https://www.netflix.com/search?q=orange&jbv=70242311&jbp=0&jbr=0
 
+- title: The Good Place
+  image: the_good_place.png
+  link: https://www.netflix.com/search?q=the%20good%20place&jbv=80113701
+
 - title: How To Get Away With Murder
   image: htgawm.png
   link: https://www.netflix.com/browse?jbv=80024057
@@ -26,11 +30,11 @@
 #   image: b99_logo.png
 #   link: https://www.netflix.com/browse?jbv=70281562&jbp=2&jbr=1
 
-- title: The Crown
-  image: the_crown_logo.png
-  link: https://www.netflix.com/browse?jbv=80025678&jbp=4&jbr=1
+# - title: The Crown
+#   image: the_crown_logo.png
+#   link: https://www.netflix.com/browse?jbv=80025678&jbp=4&jbr=1
 
-- title: Lucifer
-  image: lucifer_logo.png
-  link: https://www.netflix.com/browse?jbv=80057918&jbp=3&jbr=1
+# - title: Lucifer
+#   image: lucifer_logo.png
+#   link: https://www.netflix.com/browse?jbv=80057918&jbp=3&jbr=1
 
