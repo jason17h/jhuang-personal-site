@@ -14,17 +14,25 @@
   image: the_good_place_logo.png
   link: https://www.netflix.com/search?q=the%20good%20place&jbv=80113701
 
+- title: Schitt's Creek
+  image: schitts_creek_logo.png
+  link: https://www.netflix.com/browse?jbv=80036165
+
 - title: Orange Is The New Black
   image: oitnb_logo.png
   link: https://www.netflix.com/search?q=orange&jbv=70242311&jbp=0&jbr=0
 
-- title: How To Get Away With Murder
-  image: htgawm.png
-  link: https://www.netflix.com/browse?jbv=80024057
+- title: BoJack Horseman
+  image: bojack_horseman_logo.png
+  link: https://www.netflix.com/browse?jbv=70300800
 
-- title: Stranger Things
-  image: stranger_things_logo.png
-  link: https://www.netflix.com/search?q=stranger%20th&jbv=80057281&jbp=0&jbr=0
+# - title: How To Get Away With Murder
+#   image: htgawm.png
+#   link: https://www.netflix.com/browse?jbv=80024057
+
+# - title: Stranger Things
+#   image: stranger_things_logo.png
+#   link: https://www.netflix.com/search?q=stranger%20th&jbv=80057281&jbp=0&jbr=0
 
 # - title: Brooklyn Nine-Nine
 #   image: b99_logo.png

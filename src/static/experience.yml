@@ -22,12 +22,12 @@
   title: 
     Python Engineer Intern, Quantitative Strategies & Risk Premia
   description:
-    - Analyzed remarkable daily trends and anomalies across millions of data by developing data validation 
-      tools using pandas, NumPy and SQL.
-    - Drastically improved scalability of data-driven tools using metadata classes to manipulate and normalize 
-      department-wide datasets.
+    - Developed a data analytics platform using Python, pandas and SQL to detect trends and outliers 
+      across millions of data and ensure clean and correct inputs to crucial investment processes.
+    - Revolutionized the department's data-driven tools by introducing and implementing an in-house 
+      data structure to normalize datasets into a uniform structure and drastically improve scalability.
     - Redesigned data analysis projects to increase efficiency and broaden applicability of the tools by 
-      automating functionalities and updating compatibility across data sources.
+      automating functionalities and updating compatibility across data sources and types.
   image: cpp.jpg
 
 - term: 3
@@ -37,6 +37,13 @@
   title: 
     Quantitative Models Intern Analyst, Portfolio Engineering
   description:
-    - Currently working as an Intern Analyst on the Quantitative Models/Portfolio Engineering
-      team under the Total Fund Management department.
+    - Managed the allocation of over $400 billion in CPP funds by applying graph theory, linear algebra, 
+      and data manipulation techniques using Python, pandas and NumPy to model key investment portfolio 
+      metrics.
+    - Enhanced the scalability of quantitative investment functions by refactoring algorithmic processes 
+      to reduce runtimes and space requirements and modularizing code bases to increase cohesion.
+    - Researched the efficacy of various NLP models (TF–IDF, GloVe, BERT) in extracting valuable insights from 
+      news articles and presented which option would be most effective in achieving department goals.
+    - Performed in-depth data exploration using principal component analysis, LDA topic modelling and 
+      k-means clustering to refine ML models and effectively communicated findings to a non-technical audience.
   image: cpp.jpg

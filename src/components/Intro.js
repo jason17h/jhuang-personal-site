@@ -26,7 +26,7 @@ const Intro = () => (
                 <Col className="introduction">
                     <div className="text">
                         <p>
-                            Hey there! My name is Jason and I'm a second year Computer Science student 
+                            Hey there! My name is Jason and I'm a third year Computer Science student 
                             at the University of Waterloo.
                         </p>
                         <p>
@@ -65,7 +65,7 @@ const Intro = () => (
                         </a>
                         <a 
                             className="sm-link" 
-                            href={require('../static/Jason_Huang_Resume_2020.pdf')}
+                            href={require('../static/J_HUANG_RESUME_20201221.pdf')}
                             download="Jason_Huang_Resume_2020.pdf"
                         >
                             <AiFillProfile className="sm-icon" />
