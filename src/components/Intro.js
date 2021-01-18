@@ -65,8 +65,8 @@ const Intro = () => (
                         </a>
                         <a 
                             className="sm-link" 
-                            href={require('../static/J_HUANG_RESUME_20201221.pdf')}
-                            download="Jason_Huang_Resume_2020.pdf"
+                            href={require('../static/J_HUANG_RESUME_20210117_new_spacing.pdf')}
+                            download="Jason_Huang_Resume_2021.pdf"
                         >
                             <AiFillProfile className="sm-icon" />
                         </a>
@@ -78,23 +78,3 @@ const Intro = () => (
 )
 
 export default Intro;
-
-
-// <p>
-//     Hey there! My name is Jason and I'm a second year Computer Science student 
-//     at the University of Waterloo.
-// </p>
-// <p>
-//     Simply put, software development is an important part of my life because it gives 
-//     me a globally accessible platform to transform innovation into impact. I'm fascinated by the way
-//     I can better people's lives, whether we're five minutes apart or continents away, no matter how
-//     vastly different our day-to-day experiences are. To me, the most fundamental root of software development
-//     is improving people's lives which has inspired me to pursue an option in Human and Computer Interaction 
-//     along with my degree.
-// </p>
-// <p>
-//     Between classes, hackathons and internships, I've built a portfolio of experiences
-//     that I am eager to share with the world. 
-//     I created this site to help you get to know a little bit more about me, both  
-//     personally and professionally. Feel free to visit my GitHub, LinkedIn, or reach out to me via email!
-// </p>
