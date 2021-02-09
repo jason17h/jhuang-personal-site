@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
-import { AiFillProfile } from "react-icons/ai";
+import { FaListUl } from "react-icons/fa";
 
 const Intro = () => (
     <div className="intro">
@@ -31,7 +31,7 @@ const Intro = () => (
                         </p>
                         <p>
                             Between classes, hackathons and internships, I've built a portfolio of experiences
-                            that I am eager to share with the world. I'm currently seeking Summer 2021
+                            that I am eager to share with the world. I'm currently seeking Winter 2022
                             internship positions in software development, so if you have any opportunities
                             you'd like to discuss, feel free to reach out via email or LinkedIn!
                         </p>
@@ -65,10 +65,12 @@ const Intro = () => (
                         </a>
                         <a 
                             className="sm-link" 
-                            href={require('../static/J_HUANG_RESUME_20210117_new_spacing.pdf')}
-                            download="Jason_Huang_Resume_2021.pdf"
+                            href='Jason_Huang_Resume_2021.pdf'
+                            target="_blank"
+                            // href={require('../static/J_HUANG_RESUME_20210117_new_spacing.pdf')}
+                            // download="Jason_Huang_Resume_2021.pdf"
                         >
-                            <AiFillProfile className="sm-icon" />
+                            <FaListUl className="sm-icon" />
                         </a>
                     </div>
                 </Col>
