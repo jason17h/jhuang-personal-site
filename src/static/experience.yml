@@ -42,30 +42,3 @@
       processes to support a new suite of internal APIs using Python.
   image: wish_alt.png
 
-- term 5:
-  date: Incoming January 2022
-  company: Bloomberg L.P
-  location: New York, NY
-  title: Software Engineering Intern
-  description:
-    - Incoming Software Engineering Intern at Bloomberg (Winter 2022) – 
-      Technology Infrastructure team.
-  image: bloomberg.png
-
-- term 6:
-  date: Incoming May 2022
-  company: Facebook
-  location: Menlo Park, CA
-  title: Software Engineering Intern
-  description:
-    - Incoming Software Engineering Intern at Facebook (Summer 2022).
-  image: facebook.png
-
-- term 7:
-  date: Incoming September 2022
-  company: Citadel LLC
-  location: New York, NY
-  title: Software Engineering Intern
-  description:
-    - Incoming Software Engineering Intern at Citadel LLC (Fall 2022).
-  image: citadel.png
