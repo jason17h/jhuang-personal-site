@@ -31,8 +31,8 @@ const Intro = () => (
                         </p>
                         <p>
                             Between classes, hackathons and internships, I've built a portfolio of experiences
-                            that I am eager to share with the world. I'm currently seeking Winter 2022
-                            internship positions in software development, so if you have any opportunities
+                            that I am eager to share with the world. I'm currently seeking full-time opportunities
+                            in software development starting in Fall 2023, so if you have any opportunities
                             you'd like to discuss, feel free to reach out via email or LinkedIn!
                         </p>
                         <p>
@@ -63,7 +63,7 @@ const Intro = () => (
                         >
                             <FaEnvelope className="sm-icon"/>
                         </a>
-                        <a 
+                        {/* <a 
                             className="sm-link" 
                             href='Jason_Huang_Resume_2021.pdf'
                             target="_blank"
@@ -71,7 +71,7 @@ const Intro = () => (
                             // download="Jason_Huang_Resume_2021.pdf"
                         >
                             <FaListUl className="sm-icon" />
-                        </a>
+                        </a> */}
                     </div>
                 </Col>
             </Row>

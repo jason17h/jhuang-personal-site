@@ -23,12 +23,12 @@ const Interests = (props) => {
                 along with my degree.
             </p>
             <br />
-            <h2>Hobbies</h2>
+            {/* <h2>Hobbies</h2>
             {hobbiesConfig.map((hobby) => (
                 <Row className="hobby-row">
                     <Hobby {...hobby} />
                 </Row>
-            ))}
+            ))} */}
 
             <h2>Entertainment</h2>
             <Card className="entertainment-wrapper-card">
